@@ -1,0 +1,29 @@
+{
+  "name": "segbar.js",
+  "version": "0.0.1",
+  "description": "Small jQuery plugin for creating horizontal segmented bar charts",
+  "main": "segbar.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dimlucas/segbar.js.git"
+  },
+  "keywords": [
+    "horizontal",
+    "segmented",
+    "bar",
+    "chart"
+  ],
+  "author": "Dimitris Loukas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dimlucas/segbar.js/issues"
+  },
+  "homepage": "https://github.com/dimlucas/segbar.js#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1"
+  }
+}
