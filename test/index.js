@@ -1,10 +1,10 @@
 $('.chart').segbar([
     {
         data: [
-            { title: 'Portfolio 1', value: 16744 },
-            { title: 'Portfolio 2', value: 6500 },
-            { title: 'Portfolio 3', value: 32750 },
-            { title: 'Portfolio 4', value: 3200 }
+            {  value: 16744 },
+            {  value: 6500 },
+            {  value: 32750 },
+            {  value: 3200 }
         ]
     },
     {
@@ -14,4 +14,4 @@ $('.chart').segbar([
             { title: 'Test 3', value: 7.82, color: '#EB974E' }
         ]
     }
-]);
+]).addClass('mb-5');
