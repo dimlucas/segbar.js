@@ -47,7 +47,7 @@
         element.style.width = options.width ? options.width : DEFAULT_WIDTH;
         element.style.height = options.height ? options.height : DEFAULT_HEIGHT;
         element.classList.add('segbar');
-        let colorIt = getNextColor();
+        let colorIt = getNextColor(options.palette ? options.palette : palette);
 
         for(let item of options.data) {
             let div = document.createElement('div');
@@ -123,7 +123,7 @@
         }, 0);
     }
 
-    function* getNextColor() {
+    function* getNextColor(palette) {
         let i = 0;
         while(true) {
             yield palette[i];

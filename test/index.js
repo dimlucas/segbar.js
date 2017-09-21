@@ -1,5 +1,12 @@
 $('.chart').segbar([
     {
+        palette: [
+            '#6C7A89',
+            '#ECECEC',
+            '#95A5A6',
+            '#E67E22',
+            '#ABB7B7'
+        ],
         data: [
             {  value: 16744 },
             {  value: 6500 },
@@ -8,10 +15,17 @@ $('.chart').segbar([
         ]
     },
     {
+        palette: [
+            '#D35400',
+            '#F39C12',
+            '#F9690E',
+            '#F9BF3B',
+            '#F27935'
+        ],
         data: [
-            { title: 'Test 1', value: 6.87, color: '#8E44AD' },
-            { title: 'Test 2', value: 14.56, color: '#81CFE0' },
-            { title: 'Test 3', value: 7.82, color: '#EB974E' }
+            { title: 'Test 1', value: 6.87 },
+            { title: 'Test 2', value: 14.56 },
+            { title: 'Test 3', value: 7.82 }
         ]
     },
     {
